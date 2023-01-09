@@ -2,12 +2,12 @@ let date = new Date();
 let year = date.getFullYear();
 
 console.log(year);
-console.log(Date);
+console.log(date);
 
-document.querySelector('.year').innerHTML = `&copy;` + year;
+document.querySelector('.year').innerHTML = year;
 
 let currentdate = document.lastModified;
 
-console.log(currentdate)
+console.log(currentdate);
 
 document.querySelector('.updated').textContent = currentdate;

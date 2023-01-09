@@ -2,3 +2,38 @@ a {
     color: navy;  
     text-align: center;
 }
+
+* {
+    max-width: 800px;
+    margin: auto;
+}
+
+.title {
+    background-color: darkblue;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 1em;
+    font-size: xx-large;
+}
+
+section {
+    padding: 1em;
+}
+
+ul {
+    border-style: solid;
+    border-left: 1px;
+    border-right: 1px;
+    padding: 1em;
+}
+
+
+
+.closer {
+    background-color: darkblue;
+    color: white;
+    padding: 1em;
+    font-size: larger;
+    text-align: center;
+}
