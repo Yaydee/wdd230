@@ -1,0 +1,27 @@
+
+
+body {
+    max-width: 350px;
+}
+
+.title, .footer {
+    color: white;
+    background-color: darkslategrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0.25em;
+    margin: 0.5em;
+}
+
+.heading {
+    background-color: black;
+    color: white;
+    border-radius: 0.25em;
+    padding: 0.5em;
+    margin: auto;
+}
+
+section {
+    background-color: #c8c8c8;
+    justify-content: center;
+}
