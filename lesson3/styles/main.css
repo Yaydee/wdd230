@@ -1,0 +1,7 @@
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    background-color: #096A2E;
+    color: #BAC7BB;
+}
