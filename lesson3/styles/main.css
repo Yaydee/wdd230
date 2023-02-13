@@ -44,6 +44,10 @@ ul {
     text-align: left;
 }
 
+img {
+    max-width: 80%;
+}
+
 footer {
     background-color: #096A2E;
     color: #BAC7BB;
