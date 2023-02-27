@@ -1,0 +1,23 @@
+table, th, td{
+    caption-side: bottom;
+    border-collapse: collapse;
+    padding: 0.5em;
+    text-align: center;
+}
+
+tbody th, tbody td {
+    border: 1px solid gray;
+}
+
+thead th {
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+thead th:nth-of-type(1) {
+    background-color: black;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #ccc;
+}

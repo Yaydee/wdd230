@@ -32,3 +32,8 @@ if (temp <= 50 && ws >= 3) {
     document.querySelector('.wc') = chill;
     windchill
 };
+
+// storage local and session
+
+localStorage.setItem('name', 'Kyle Kerr - Permament');
+localStorage.setItem('class', 'WDD230 - Not Permament');
